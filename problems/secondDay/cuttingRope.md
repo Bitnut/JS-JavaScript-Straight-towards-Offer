@@ -39,3 +39,5 @@
             return Math.pow(3,a)*2;
         }
     };
+
+## [返回题目列表](../../README.md)

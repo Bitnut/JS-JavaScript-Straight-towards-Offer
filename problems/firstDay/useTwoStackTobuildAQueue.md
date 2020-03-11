@@ -59,3 +59,5 @@
     * obj.appendTail(value)
     * var param_2 = obj.deleteHead()
     */
+
+## [返回题目列表](../../README.md)
