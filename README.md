@@ -43,5 +43,15 @@ leetcode 《剑指offer》系列题解，随手记录一下自己的解题之路
 * [面试题22.链表中倒数第k个节点](./problems/secondDay/theKthLastNode.md)
 * [面试题24.反转链表](./problems/secondDay/reverseLinklist.md)
 
-
+### 第三天：
+* [面试题25.合并两个排序的链表](./problems/thirdDay/mergeTwoSortedLinklist.md)
+* [面试题26.树的子结构](./problems/thirdDay/substrctOfTree.md)
+* [面试题27.二叉树的镜像](./problems/thirdDay/mirrorTree.md)
+* [面试题28.对称的二叉树](./problems/thirdDay/binaryTreeIsSymatic.md)
+* [面试题29.顺时针打印矩阵](./problems/thirdDay/printMatrixInSpiralOrder.md)
+* [面试题30.包含min函数的栈](./problems/thirdDay/minStack.md)
+* [面试题31.栈的压入、弹出序列](./problems/thirdDay/push&popStack.md)
+* [面试题32-I.从上到下打印二叉树](./problems/thirdDay/printTreeInLevelOrder.md)
+* [面试题32-II.从上到下打印二叉树 II](./problems/thirdDay/printTreeInLevelOrderII.md)
+* [面试题32-III.从上到下打印二叉树 III](./problems/thirdDay/printTreeInLevelOrderIII.md)
 
