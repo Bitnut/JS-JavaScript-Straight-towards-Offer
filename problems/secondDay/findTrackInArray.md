@@ -27,9 +27,9 @@
 1 <= board[i].length <= 200
 
 # 思路
-
+遍历数组的时候使用深度优先寻找路径。需要向深度优先函数传递的信息有：当前字母在矩阵中的位置，下一个查找的字母。
 # 关键点分析
-
+注意每次查找前判断是否越界，如果越界则直接返回false。
 # 代码
 
     var DFS = function(board, word, row, col, rows, cols, cur) {
