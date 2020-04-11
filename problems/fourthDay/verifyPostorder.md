@@ -53,7 +53,7 @@ JS
 
 C++
 
-class Solution {
+    class Solution {
     public:
         bool verifyPostorder(vector<int>& postorder) {
             return iteration(postorder, 0, postorder.size() - 1);
@@ -70,4 +70,5 @@ class Solution {
             return iteration(a, l, i-1) && iteration(a, i, r-1);
         }
     };
+    
 ## [返回题目列表](../../README.md)
