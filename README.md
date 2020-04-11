@@ -55,3 +55,7 @@ leetcode 《剑指offer》系列题解，随手记录一下自己的解题之路
 * [面试题32-II.从上到下打印二叉树 II](./problems/thirdDay/printTreeInLevelOrderII.md)
 * [面试题32-III.从上到下打印二叉树 III](./problems/thirdDay/printTreeInLevelOrderIII.md)
 
+其实已经做完了但是一直没把更新接上，下面会把接下来的代码都补上，会给出JS+C++的解法实现
+
+### 第四天：
+* [面试题33.二叉搜索树的后序遍历序列](./problems/fourthDay/verifyPostorder.md)
