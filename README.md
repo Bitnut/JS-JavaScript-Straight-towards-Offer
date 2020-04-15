@@ -61,3 +61,4 @@ leetcode 《剑指offer》系列题解，随手记录一下自己的解题之路
 * [面试题33.二叉搜索树的后序遍历序列](./problems/fourthDay/verifyPostorder.md)
 * [面试题34. 二叉树中和为某一值的路径](./problems/fourthDay/pathSum.md)
 * [面试题35. 复杂链表的复制](./problems/fourthDay/copyRandomList~.md)
+* [面试题36. 二叉搜索树与双向链表](./problems/fourthDay/copyRandomList~.md)
