@@ -20,8 +20,53 @@
 # 思路
 广度优先遍历
 # 关键点分析
-数据处理
+数据处理,这里JS的数据处理要比C++简单，当然你也可以自己实现一个函数:D
 # 代码
+JS
+
+var serialize = function(root) {
+    let res = "";
+    let queue = [];
+    if(!root) return "";
+    queue.push(root);
+    while(queue.length !== 0) {
+        let tmp = queue.shift();
+        if(tmp) {
+            res += tmp.val + ',';
+            queue.push(tmp.left);
+            queue.push(tmp.right);
+        } else {
+            res += 'null,';
+        }
+    }
+    res = res.substr(0, res.length - 1);
+    return res;
+};
+
+var deserialize = function(data) {
+    if(data.length === 0) return null;
+    let nodes = data.split(',');
+    let root = new TreeNode(parseInt(nodes.shift()));
+    
+    let queue = [root];
+    while(queue.length !== 0) {
+        let tmp = queue.shift();
+        let node = nodes.shift();
+        if(node !== 'null') {
+            tmp.left = new TreeNode(node);
+            queue.push(tmp.left);
+        }
+        node = nodes.shift();
+        if(node !== 'null') {
+            tmp.right = new TreeNode(node);
+            queue.push(tmp.right);
+        }
+    }
+    return root;
+};
+
+
+
 C++
 
     class Codec {
